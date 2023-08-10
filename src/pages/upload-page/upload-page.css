@@ -1,0 +1,44 @@
+.upload::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: calc(50vh - 170px);
+}
+
+.upload__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.upload__field {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.upload__label {
+  margin-right: 10px;
+}
+
+.upload__description {
+  margin: 0;
+}
+
+.upload__list {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.upload__button {
+  margin-right: 10px;
+}

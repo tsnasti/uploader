@@ -1,0 +1,31 @@
+.auth::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: calc(50vh - 160px);
+}
+
+.auth__wrapper {
+  margin-bottom: 15px;
+}
+
+.auth__field {
+  height: 37px;
+  padding: 0 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.auth__field:focus-visible {
+  outline: none;
+  border-color: #0d55ff;
+  box-shadow: 0 0 10px #0d55ff;
+  
+}
+
+.auth__field::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}

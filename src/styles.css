@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #55565c;
+  background-color: #e8e8e8;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.button {
+  min-width: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #0d55ff;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0d47d1;
+}
+
+.button--green {
+  background-color: #01bf2a;
+}
+
+.button--green:hover {
+  background-color: #009320;
+}
+
+.button--outline {
+  background-color: transparent;
+  outline: solid 1px #0d55ff;
+  outline-offset: -1px;
+  color: #0d55ff;
+}
+
+.button--outline:hover {
+  background-color: transparent;
+  outline-color: #1442ad;
+  color: #1442ad;
+}
+
+.button--outline-green {
+  outline-color: #01bf2a;
+  color: #01bf2a;
+}
+
+.button--outline-green:hover {
+  outline-color: #009320;
+  color: #009320;
+}
+
+.link {
+  color: #0d55ff;
+}
+
+.link:hover {
+  color: #0d47d1;
+}
