@@ -23,7 +23,7 @@ function Auth(): JSX.Element {
       })
       .catch(function () {
         event.preventDefault();
-        alert("Неккоректные данные");
+        alert("Некорректные данные");
       });
   };
 
